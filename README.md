@@ -17,6 +17,7 @@ This project has been tested with mocked API responses. It has **not** been test
 See [AUDIT.md](AUDIT.md) for the prototype assessment and [API_NOTES.md](API_NOTES.md) for verified API details.
 Use [MANUAL_LIVE_TEST_GUIDE.md](MANUAL_LIVE_TEST_GUIDE.md) for the first supervised test with a real kDrive account.
 Technical helpers can use [MAC_LINUX_MANUAL_TEST_GUIDE.md](MAC_LINUX_MANUAL_TEST_GUIDE.md) to validate the source application on macOS or Linux.
+The teacher can use [TEACHER_PRE_MEETING_GUIDE.md](TEACHER_PRE_MEETING_GUIDE.md) to prepare a safe practice folder and explore read-only features before the supervised session.
 The observed macOS setup and offline-test results are recorded in [MACOS_SETUP_AND_TEST_LOG.md](MACOS_SETUP_AND_TEST_LOG.md).
 
 ## Architecture
