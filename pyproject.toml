@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kdrive-link-manager"
+version = "0.2.0"
+description = "Safe bulk sharing-link manager for Infomaniak kDrive recordings"
+requires-python = ">=3.11"
+dependencies = ["requests>=2.31,<3"]
+
+[project.scripts]
+kdrive-link-manager = "kdrive_link_manager.main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
