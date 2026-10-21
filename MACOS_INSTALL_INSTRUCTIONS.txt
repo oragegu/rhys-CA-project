@@ -1,0 +1,64 @@
+kDrive Link Manager for Mac
+===========================
+
+What this app does
+------------------
+kDrive Link Manager finds MP4 recordings in an Infomaniak kDrive folder,
+shows their existing public sharing links, creates password-protected links
+only when a link is missing, and exports the results to CSV.
+
+System requirements
+-------------------
+- A Mac with Apple silicon (M1, M2, M3, M4, or newer)
+- macOS 26 or newer
+- An internet connection
+- An Infomaniak personal API token with the "accounts" and "drive" scopes
+
+Install the app
+---------------
+1. Double-click the ZIP file to extract it.
+2. Drag kDrive-Link-Manager.app into your Applications folder.
+3. Double-click the app to open it.
+
+Important macOS security notice
+-------------------------------
+This copy was shared directly by the app's creator. It has not been signed or
+notarized through Apple's Developer Program. Only open it if you expected to
+receive it and trust the person who sent it.
+
+If macOS blocks the first launch:
+1. Try opening kDrive-Link-Manager once so macOS records the attempt.
+2. Open System Settings.
+3. Select Privacy & Security and scroll down to the Security section.
+4. Click Open Anyway beside the message about kDrive-Link-Manager.
+5. Confirm by clicking Open and enter your Mac login password if requested.
+
+macOS normally remembers this choice, so later launches should work by
+double-clicking the app. A work or school Mac may prevent this override.
+
+First use
+---------
+1. Create your own personal API token in Infomaniak Manager. Give it only the
+   "accounts" and "drive" scopes.
+2. Open the app and paste the token into the Token field.
+3. Click Connect to kDrive.
+4. Enter the folder name, click Find folders, and select the correct match.
+5. Scan the folder before creating any links. Scanning is read-only.
+6. Practice with a test folder and one test recording before using a real
+   recordings folder.
+
+Safety and privacy
+------------------
+- Never send your API token or sharing password to anyone.
+- The app keeps tokens and passwords in memory and does not save them.
+- Existing sharing links are preserved rather than replaced.
+- Always confirm the selected kDrive and folder before creating links.
+- If the app reports an uncertain result, rescan before trying again.
+
+Troubleshooting
+---------------
+- The app will not open on an Intel Mac; this build is Apple-silicon-only.
+- If your Mac runs macOS 25 or earlier, ask for a compatible build.
+- If Connect fails, check that your token has both required scopes.
+- If a folder is not found, check its spelling and search again.
+- If several folders match, verify the kDrive name and complete folder path.

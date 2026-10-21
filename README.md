@@ -84,6 +84,16 @@ dist\kDrive-Link-Manager.exe
 
 PyInstaller does not cross-compile a Windows executable from macOS. Build and launch the result on Windows before distribution. No administrator privileges should be needed. An unsigned executable may trigger a Windows SmartScreen warning.
 
+## Build the macOS application
+
+The project-local build entry point packages and launches the Tkinter app with PyInstaller:
+
+```bash
+./script/build_and_run.sh
+```
+
+Use `./script/build_and_run.sh --verify` to build, launch, and confirm that the process is running. The current release artifact is an unsigned Apple-silicon build for macOS 26 or newer. See [MACOS_INSTALL_INSTRUCTIONS.txt](MACOS_INSTALL_INSTRUCTIONS.txt) for recipient installation and Gatekeeper instructions.
+
 ## Troubleshooting
 
 - **Access denied:** recreate the token with both `accounts` and `drive` scopes and confirm the user can manage the selected files.
